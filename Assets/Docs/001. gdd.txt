@@ -1,0 +1,24 @@
+- platformer
+- tiles, matrix represented board
+- multi-connected boards
+- camera follow per boards
+- transition to other boards
+- fixed joints per boards
+- companion: light source
+- other static light sources per board
+- companion stay, follow commands
+- companion follow movement
+- dodge nightmares
+- protect companion from nightmares
+- mark nightmares as ok to traverse for companion - cooldown
+- short range attack for marking nightmares
+
+
+
+
+
+
+tbd:
+- soothing? limited ammo?
+- light points that decay over time? use light wisely?
+- 
