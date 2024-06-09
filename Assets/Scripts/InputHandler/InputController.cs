@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(InputHandler))]
+[RequireComponent(typeof(PlayerSettings))]
 public class InputController : MonoBehaviour
 {
     // Start is called before the first frame update

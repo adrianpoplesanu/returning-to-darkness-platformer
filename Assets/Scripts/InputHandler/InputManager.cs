@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
-{
-    void Start()
-    {
-        
-    }
+public class InputManager {
+    private readonly string osInfo;
 
-    void Update()
-    {
-        
+    public InputManager() {
+        osInfo = SystemInfo.operatingSystem;
+        Debug.Log(osInfo);
     }
 
     public enum InputType {
