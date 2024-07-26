@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class PlayerSettings : MonoBehaviour
 {
-    public InputManager.InputType inputType;
+    public InputManagerCustom.InputType inputType;
 }

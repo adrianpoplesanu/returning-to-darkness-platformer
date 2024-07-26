@@ -65,10 +65,11 @@
     <Compile Include="Assets/Scripts/Player/PlayerSettings.cs" />
     <Compile Include="Assets/Scripts/InputHandler/InputMapping.cs" />
     <Compile Include="Assets/Scripts/InputHandler/InputController.cs" />
-    <Compile Include="Assets/Scripts/InputHandler/InputManager.cs" />
+    <Compile Include="Assets/Scripts/InputHandler/InputManagerCustom.cs" />
     <Compile Include="Assets/Scripts/Camera/CameraFollow.cs" />
     <Compile Include="Assets/Scripts/World/WorldGenerator.cs" />
     <Compile Include="Assets/Scripts/Actors/Actor.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/InputHandler/InputHandler.cs" />
   </ItemGroup>
   <ItemGroup>

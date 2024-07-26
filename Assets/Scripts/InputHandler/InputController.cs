@@ -6,15 +6,32 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerSettings))]
 public class InputController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    private InputHandler inputHandler;
+    private PlayerSettings playerSettings;
+    private string controllerId;
+    void Start() {
+        inputHandler = GetComponent<InputHandler>();
+        playerSettings = GetComponent<PlayerSettings>();
+        controllerId = ((InputManagerCustom.InputType) playerSettings.inputType).ToString().ToLower();
+        inputHandler.controllerId = controllerId;
+        Debug.Log(controllerId);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+   public  Vector2 GetStickMovement() {
+        Vector2 movement = inputHandler.GetStickMovement();
+        return movement;
+    }
+
+    public bool JumpPressed() {
+        bool result = inputHandler.JumpPressed();
+        return result;
+    }
+
+    public bool StayPressed() {
+        return false;
+    }
+
+    public bool ComePressed() {
+        return false;
     }
 }
