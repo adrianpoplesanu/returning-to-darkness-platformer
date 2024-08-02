@@ -587,6 +587,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 10
   height: 10
+  newSpriteTile0: {fileID: 21300000, guid: 1e9b19c3508b345b8895c70402165637, type: 3}
+  newSpriteTile1: {fileID: 21300000, guid: d141e9c8ec3eb430ea08d0476136d043, type: 3}
+  newSpriteTile2: {fileID: 21300000, guid: 9c8d815cc49d54753bbced22733391a9, type: 3}
+  newSpriteTile3: {fileID: 21300000, guid: 1fd7baf0fb63241cf8cad69e1722d637, type: 3}
+  newSpriteTile4: {fileID: 21300000, guid: 9827f90138a234a7fb218d55b0a73031, type: 3}
+  newSpriteTile5: {fileID: 21300000, guid: 78afffa8777a64bfebb12f193914046d, type: 3}
+  newSpriteTile6: {fileID: 21300000, guid: b9f605aa59d944585817ac0a89526f6d, type: 3}
+  newSpriteTile7: {fileID: 21300000, guid: 55727613a393942a38295c6c7a158146, type: 3}
+  newSpriteTile8: {fileID: 21300000, guid: 620622f5f651146008723b1e4e2f473d, type: 3}
+  newSpriteTile9: {fileID: 21300000, guid: 2134a70d52a464b18a720d1d3abc6788, type: 3}
 --- !u!1 &877062761
 GameObject:
   m_ObjectHideFlags: 0
