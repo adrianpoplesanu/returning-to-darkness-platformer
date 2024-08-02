@@ -68,10 +68,10 @@
     <Compile Include="Assets/Scripts/InputHandler/InputManagerCustom.cs" />
     <Compile Include="Assets/Scripts/Camera/CameraFollow.cs" />
     <Compile Include="Assets/Scripts/World/WorldGenerator.cs" />
+    <Compile Include="Assets/Scripts/Board/BoardController.cs" />
     <Compile Include="Assets/Scripts/Actors/Actor.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/InputHandler/InputHandler.cs" />
-    <Compile Include="Assets/Scripts/Board/BoardController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Docs/001. gdd.txt" />

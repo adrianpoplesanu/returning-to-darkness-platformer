@@ -83,6 +83,7 @@ public class BoardController : MonoBehaviour
                         spriteRenderer.sprite = newSpriteTile9;
                     break;
                 }
+                spriteRenderer.sortingOrder = 1;
                 renderingTiles[i, j].transform.position = new Vector3(i, j, 0);
             }
         }
